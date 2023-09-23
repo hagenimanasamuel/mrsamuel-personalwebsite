@@ -819,9 +819,9 @@ Email.send({
     Body : "Names: " + document.getElementById("name").value +
 "<br> Email: " + document.getElementById("email").value +
 "<br> Message: " + 
-document.getElementById("message").value
+document.getElementById("message").value +
 }).then(
-    message => alert(message)
+    message => alert("Thank You for your feedback. Your Message is Sent Successfully");
 );       
  }
 </script>
